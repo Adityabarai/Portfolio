@@ -1,4 +1,4 @@
 # Portfolio
-Aditya Barai -- Portfolio 
+Aditya Barai | Portfolio 
 <br>
 updated 
