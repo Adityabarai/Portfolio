@@ -51,8 +51,8 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-contact', { origin: 'right' });
 ScrollReveal().reveal('.skills-row', { origin: 'left' });
 
-//===================== save the database in the google excel ==================//
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzaP03pQoedL2IFtdbcwfMlSydfmQo2cj-1RAaSfxi1dl8u_uLJ0M3yUeswNY4OCyou1A/exec';
+//===================== save the database in the google excel and also mail the messege in Gmail Account==================//
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzq38Hd4gElo5jqkvRj9wCQ5asjn_xgwCwRfYDeVY_YzdZ2XJFtK2gPxOY047T_EZZglg/exec';
 const form = document.forms['submit-to-google-sheet'];
 const msg = document.getElementById("msg");
 
@@ -81,24 +81,3 @@ form.addEventListener('submit', e => {
         });
 });
 
-// ===================== notifications on the google account ==================//
-// const from = document.querySelector('form');
-
-// function sendEmail() {
-//     Email.send({
-//         Host : "smtp.elasticemail.com",
-//         Username : "adityabarai40@gmail.com",
-//         Password : "3B5F99FCFF4017C0DBF8B11A6CAF46B87A72",
-//         To : 'adityabarai40@gmail.com',
-//         From : "adityabarai40@gmail.com",
-//         Subject : "New Contant From Enquiry",
-//         Body : "And this is the body"
-//     }).then(
-//         message => alert(message)
-//       );
-// }
-// form.addEventListener("submit", (e) => {
-//     e.preventDefault();
-
-//     sendEmail();
-// })
