@@ -87,7 +87,11 @@ section {
 .navbar a:hover::after {
     width: 100%;
 }
-
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+} 
 /* a.active {
     filter: blur(0);
     Remove blur on active 
@@ -97,12 +101,7 @@ section {
     filter: blur(1px);
     Apply blur on navbar items when navbar is hovered but the item itself isn't hovered 
 } 
-*/
-#menu-icon {
-    font-size: 3.6rem;
-    color: var(--text-color);
-    display: none;
-}
+ */
 
 .home {
     display: flex;
@@ -157,8 +156,8 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
@@ -267,6 +266,7 @@ span {
 }
 
 .services-box i {
+   
     font-size: 7rem;
     color: var(--main-color);
 }
@@ -276,7 +276,7 @@ span {
 }
 
 .services-box p {
-    font: size 1.6rem;
+    font-size:  1.6rem;
     margin: 1rem 0 3rem;
 }
 
